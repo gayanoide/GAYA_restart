@@ -21,13 +21,13 @@ RegisterServerEvent("restart:checkreboot")
 AddEventHandler('restart:checkreboot', function()
 	date_local1 = os.date('%H:%M:%S', os.time())
 	local date_local = date_local1
-	if date_local == '05:15:00' then
+	if date_local == '04:45:00' then
 		TriggerClientEvent("annonce", -1, text1)  ---REBOOT 7H---//---COMMENCE A FAIRE DES NUAGE---
 		ExecuteCommand('weather clearing')
-	elseif date_local == '05:20:00' then
+	elseif date_local == '04:50:00' then
 		TriggerClientEvent("annonce", -1, text2)  ---COMMENCE A PLEUVOIR---
 		ExecuteCommand('weather rain')
-	elseif date_local == '05:25:00' then
+	elseif date_local == '04:55:00' then
 		TriggerClientEvent("annonce", -1, text3)  ---COMMENCE A FAIRE DES ORAGE---
 		ExecuteCommand('weather thunder')
 	-------------------------------------------------	
