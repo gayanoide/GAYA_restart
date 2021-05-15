@@ -30,15 +30,7 @@ AddEventHandler('restart:checkreboot', function()
 	elseif date_local == '05:25:00' then
 		TriggerClientEvent("annonce", -1, text3)  ---COMMENCE A FAIRE DES ORAGE---
 		ExecuteCommand('weather thunder')
-	-------------------------------------------------
-	--elseif date_local == '09:45:00' then 
-		--TriggerClientEvent("annonce", -1, text1)
-	--elseif date_local == '09:50:00' then
-		--TriggerClientEvent("annonce", -1, text2)
-	--elseif date_local == '09:55:00' then
-		--TriggerClientEvent("annonce", -1, text3)
-		--ExecuteCommand('weather thunder')
-	--------------------------------------------------	
+	-------------------------------------------------	
 	elseif date_local == '16:45:00' then 
 		TriggerClientEvent("annonce", -1, text1)  ---REBOOT 19H---//---COMMENCE A FAIRE DES NUAGE---
 		ExecuteCommand('weather clearing')
