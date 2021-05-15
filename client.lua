@@ -1,3 +1,10 @@
+print("^0======================================================================^7")
+print("^0[^4Author^0] ^7:^0 ^5MonsieuRGAYA^7")
+print("^0[^3Version^0] ^7:^0 ^01.0^7")
+print("^0======================================================================^7")
+
+
+
 --how long you want the thing to last for. in seconds.
 announcestring = false
 lastfor = 15
@@ -35,5 +42,3 @@ Citizen.CreateThread(function()
         end
     end
 end)
-
--------------------- MonsieuRGAYA --------------------------
